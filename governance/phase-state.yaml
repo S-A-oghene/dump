@@ -1,0 +1,33 @@
+project:
+  name: ESE DIGITALS
+  methodology: GATED
+  current_phase: PHASE_4
+  current_gate: G9.5
+  current_gate_status: IN_PROGRESS
+  current_gate_source: governance/source-of-truth/Ese_Digitals_V4_Migration_Master_Session_Context_2026-09-13.md
+
+state_model:
+  - PLANNED
+  - BUILDING
+  - BUILT
+  - AUTOMATEDLY_VALIDATED
+  - GATE_READY
+  - HUMAN_CERTIFIED
+  - AUTHORIZED
+  - BLOCKED
+
+phase_4:
+  build_authorized: true
+  current_state: BUILDING
+  automated_validation_required: true
+  human_testing_required: true
+  human_certification_required: true
+  downstream_phase_authorization: BLOCKED
+  certification_authority: HUMAN_PROJECT_OWNER
+  external_review: ADVISORY_ONLY
+  reconciliation_required: true
+  reconciliation_notice: >-
+    The latest controlling handoff records G9.5 Canonical Backend/API Integration
+    as IN_PROGRESS in architecture/security inspection. Repository-local platform
+    technical evidence records a later-looking Worker/D1 implementation result.
+    The conflict is unresolved and does not advance the gate or phase state.

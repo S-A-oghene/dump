@@ -1,0 +1,48 @@
+schema_version: "1.0"
+project: ESE DIGITALS
+methodology: GATED
+
+phase_4:
+  current_gate:
+    id: G9.5
+    name: Canonical Backend/API Integration
+    status: IN_PROGRESS
+    authoritative_source: governance/source-of-truth/Ese_Digitals_V4_Migration_Master_Session_Context_2026-09-13.md
+  reconciliation_required: true
+  reconciliation_reason: >-
+    The V4 handoff records G9.5 as architecture/security inspection with public
+    deployment not approved, while platform-local evidence records a Worker/D1
+    technical result. No approved decision record currently resolves the conflict.
+  mandatory_requirements:
+    - requirements_traceability
+    - unit_tests
+    - integration_tests
+    - regression_tests
+    - applicable_security_checks
+    - defect_remediation_cycle
+    - evidence_index
+    - human_acceptance_review
+  certification:
+    automated_test_pass_is_insufficient: true
+    human_certification_required: true
+    next_phase_requires_explicit_authorization: true
+  subgates:
+    G9.0: {status: RECORDED_FROM_V4, disposition: CLOSED_OR_COMPLETED_AS_RECORDED}
+    G9.1: {status: RECORDED_FROM_V4, disposition: UNSCOPED_HERE}
+    G9.2: {status: RECORDED_FROM_V4, disposition: UNSCOPED_HERE}
+    G9.3: {status: RECORDED_FROM_V4, disposition: UNSCOPED_HERE}
+    G9.4: {status: PASS_EVIDENCED_CLOSED, disposition: RECORDED_FROM_V4}
+    G9.5: {status: IN_PROGRESS, disposition: CONTROLLING}
+    G9.6: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.7: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.8: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.9: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.10: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.11: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.12: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.13: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.14: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.15: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.16: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.17: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}
+    G9.18: {status: PENDING, disposition: NOT_STARTABLE_AS_CURRENT_GATE}

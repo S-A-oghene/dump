@@ -1,0 +1,7 @@
+schema_version: "1.0"
+gate: G9.18
+status: PENDING
+evidence_status: NOT_CONSOLIDATED
+certification_status: NOT_CERTIFIED
+authority: HUMAN_PROJECT_OWNER
+note: "Scaffold only; no evidence is invented by this file."

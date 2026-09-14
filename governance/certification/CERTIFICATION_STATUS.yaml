@@ -1,0 +1,18 @@
+schema_version: "1.0"
+
+certification:
+  phase: PHASE_4
+  gate: G9.5
+  status: NOT_CERTIFIED
+  authority_role: HUMAN_PROJECT_OWNER
+  named_authority: UNDEFINED_IN_CURRENT_GOVERNANCE_BASELINE
+  dual_reviewer: UNDEFINED
+  downstream_authorization: BLOCKED
+
+rules:
+  codex_may_recommend: true
+  codex_may_certify: false
+  codex_may_authorize_next_phase: false
+  automated_pass_is_sufficient: false
+  human_acceptance_required: true
+  material_architecture_conflict_must_be_resolved: true

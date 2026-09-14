@@ -1,0 +1,7 @@
+schema_version: "1.0"
+policy:
+  repository_is_durable_state: true
+records:
+  - id: "BASELINE-2026-09-14"
+    status: CURRENT
+    artifact: governance/execution/CURRENT_EXECUTION_STATE.yaml

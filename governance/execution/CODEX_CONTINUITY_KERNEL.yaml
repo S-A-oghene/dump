@@ -1,0 +1,67 @@
+schema_version: "1.0"
+kernel:
+  name: ESE DIGITALS Codex Continuity Kernel
+  version: "1.0"
+  repository_is_durable_state: true
+  conversation_history_is_not_durable_state: true
+
+required_read_order:
+  - governance/phase-state.yaml
+  - governance/gate-register.yaml
+  - governance/authority-matrix.yaml
+  - governance/source-of-truth/Ese_Digitals_V4_Migration_Master_Session_Context_2026-09-13.md
+  - governance/source-of-truth/Ese_Digitals_Phase_4_Opportunity_Intelligence_Engine_Master_Build_Manual_v2_2.docx
+  - governance/execution/CODEX_CONTINUITY_KERNEL.yaml
+  - governance/execution/CURRENT_EXECUTION_STATE.yaml
+  - governance/execution/CURRENT_OBJECTIVE.md
+  - governance/execution/NEXT_ACTIONS.md
+  - governance/evidence/INDEX.yaml
+
+allowed_actions:
+  - inspect
+  - implement
+  - refactor
+  - test
+  - diagnose
+  - remediate
+  - document
+  - preserve_evidence
+  - create_traceability
+  - create_gate_packet
+  - prepare_commit
+  - prepare_pull_request
+
+hard_stops:
+  human_decision_required: true
+  human_certification_required: true
+  downstream_authorization_required: true
+  material_architecture_contradiction: true
+  unverifiable_evidence: true
+  safety_invariant_at_risk: true
+  unapproved_production_change: true
+  usage_or_context_exhaustion: true
+
+status_model:
+  - PLANNED
+  - BUILDING
+  - BUILT
+  - AUTOMATEDLY_VALIDATED
+  - GATE_READY
+  - HUMAN_CERTIFIED
+  - AUTHORIZED
+  - BLOCKED
+
+continuity_requirements:
+  before_work:
+    - read_governance
+    - verify_current_gate
+    - verify_authority
+    - read_current_execution_state
+    - verify_repo_head_and_status
+  before_stop:
+    - persist_last_completed_action
+    - persist_exact_next_action
+    - persist_blockers
+    - persist_test_state
+    - persist_evidence_references
+    - persist_stop_reason

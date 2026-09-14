@@ -1,0 +1,392 @@
+{
+  "generated_at": "2026-09-14",
+  "file_count": 77,
+  "governance_validation_exit_code": 0,
+  "files": [
+    {
+      "path": ".github/workflows/governance-validate.yml",
+      "bytes": 417,
+      "sha256": "135745505f3b7e2e72b100c1de0371474af46fca60c646c38cdc55e43d2062dc"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 235,
+      "sha256": "170545e27b23a4f66c6733e87c304d59151cc721b34ecdeadddc4b8c673296ec"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 5632,
+      "sha256": "f6882152480f02ece6a09e3b13a9c46497e092d7174d865d91ecca3b3bd7bb5e"
+    },
+    {
+      "path": "CODEX_MASTER_EXECUTION_PROMPT.md",
+      "bytes": 1803,
+      "sha256": "9cd16ff82db746b57068dcd861593c94744d2c75dae4260605b8f2b795ae4110"
+    },
+    {
+      "path": "GOVERNANCE_BASELINE_REPORT.md",
+      "bytes": 2271,
+      "sha256": "09447bf4d5e2ddfe4d2ea66b894783a604006c2d19fb013f8abb7219cdf58951"
+    },
+    {
+      "path": "GOVERNANCE_CHANGELOG.md",
+      "bytes": 734,
+      "sha256": "132afde4f510efa811d46ba93e8f23edf70faa8c98ebf3feee85a848688f2251"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 13382,
+      "sha256": "64fe6a39cbe6031d957955618aa5f4bd5e463e5efbfd24250a5e65c0281277ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1418,
+      "sha256": "f3eabfaf676f8cc49ef3eed1c71f3680a1b7fef4b5bcc0d163c3b465ad5b27ab"
+    },
+    {
+      "path": "communication/feedback/HUMAN_ACCEPTANCE_FEEDBACK_TEMPLATE.md",
+      "bytes": 326,
+      "sha256": "d0b9d5ccd09cd28d17ad9d70ab667d4e100798717edd8896afaafdf807baf7c8"
+    },
+    {
+      "path": "communication/feedback/README.md",
+      "bytes": 130,
+      "sha256": "86b758e3c3cfbce524d6d827f8566e51e392be5c21b2ec599faec5247b9738c3"
+    },
+    {
+      "path": "communication/handoffs/CODEX_HANDOFF_TEMPLATE.md",
+      "bytes": 281,
+      "sha256": "88ee123cfb7f3247498ec6aca233c45023efe465bbfa9d308b283767cfa99b6d"
+    },
+    {
+      "path": "communication/handoffs/HANDOFF_INDEX.yaml",
+      "bytes": 189,
+      "sha256": "ca4277e94dce448ada5aed932ae50e499f16a5e3a70f790521d5e724c639cba2"
+    },
+    {
+      "path": "communication/handoffs/README.md",
+      "bytes": 129,
+      "sha256": "7c3d45519e55998e340aff0ac873eeccd571b5c4ce18b6d6a82acd88a1c14f6b"
+    },
+    {
+      "path": "governance/authority-matrix.yaml",
+      "bytes": 1230,
+      "sha256": "1434f5035fd638c46d7cefa570d20e2792312d0cd6adea42c21b2953ff03ca3f"
+    },
+    {
+      "path": "governance/certification/CERTIFICATION_STATUS.yaml",
+      "bytes": 484,
+      "sha256": "baf3cf4df6cb91d47225d21165cc8993804a383f2096948ea66b5efb2b3f83b4"
+    },
+    {
+      "path": "governance/certification/feedback/HUMAN_ACCEPTANCE_FEEDBACK_TEMPLATE.md",
+      "bytes": 326,
+      "sha256": "d0b9d5ccd09cd28d17ad9d70ab667d4e100798717edd8896afaafdf807baf7c8"
+    },
+    {
+      "path": "governance/certification/records/CERTIFICATION_INDEX.yaml",
+      "bytes": 221,
+      "sha256": "f52998d8d159943946201a862cbafce90cd90f762921aa3f626699d98269bf08"
+    },
+    {
+      "path": "governance/certification/records/CERTIFICATION_RECORD_TEMPLATE.md",
+      "bytes": 596,
+      "sha256": "3ee3e5bb7e2b3d224ba2d2ded6470087ebc8236e0c2190583f41991e1078f5fd"
+    },
+    {
+      "path": "governance/change-control/README.md",
+      "bytes": 263,
+      "sha256": "544a9d4f396db73b188691d26d902242283415975b7dc26074b685d78b7a18cc"
+    },
+    {
+      "path": "governance/decisions/DECISION_INDEX.yaml",
+      "bytes": 392,
+      "sha256": "687ea7c966259964b1f52f4138fe3e6a539f1c7d81b3467d5dbeba5cc996aeb2"
+    },
+    {
+      "path": "governance/decisions/DECISION_RECORD_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "608adbf10466622853a9164bf569fd2b62ca44298c714165a5622b83b62e889b"
+    },
+    {
+      "path": "governance/decisions/G9_PUBLIC_BACKEND_ARCHITECTURE_RECONCILIATION.md",
+      "bytes": 1000,
+      "sha256": "8c48afe817371d0eac5c9074e68e293161510f98358bd61a232c889c01e7ffef"
+    },
+    {
+      "path": "governance/evidence/INDEX.yaml",
+      "bytes": 982,
+      "sha256": "50290c37f0b62e28e5362863c86bdc484c7fe70e48e966dc4b8622cd9df29505"
+    },
+    {
+      "path": "governance/evidence/PHASE_4/G9.5/README.md",
+      "bytes": 349,
+      "sha256": "978c9c8f1534403b0609ff2c45e46e77abc3aafc691ac6effc406562d7112621"
+    },
+    {
+      "path": "governance/evidence/templates/RUN_METADATA.yaml",
+      "bytes": 116,
+      "sha256": "c69f02d764d90cd76b20e95f330f69bfd6e641e1bb89671da82740c214f4c7f7"
+    },
+    {
+      "path": "governance/execution/BATCHED_CODEX_EXECUTION_PROTOCOL.md",
+      "bytes": 2545,
+      "sha256": "a71c7913529b2aaf55f8bd4147a349be7910090cf70b7530568366bc6fe53e57"
+    },
+    {
+      "path": "governance/execution/CODEX_CONTINUITY_KERNEL.yaml",
+      "bytes": 1774,
+      "sha256": "277ae606353f0b7491e0861eb450d40945a3da475639edc01bd8477042aa93ed"
+    },
+    {
+      "path": "governance/execution/CURRENT_EXECUTION_STATE.yaml",
+      "bytes": 1970,
+      "sha256": "936705fe98b3daa9373a4045fa453706b62976766061da0578d84e57d2641edf"
+    },
+    {
+      "path": "governance/execution/CURRENT_OBJECTIVE.md",
+      "bytes": 1199,
+      "sha256": "67b7764d15e48ffd85bc75350cd54b6314dd7b02610a3f018f5ae22d72b36d69"
+    },
+    {
+      "path": "governance/execution/NEXT_ACTIONS.md",
+      "bytes": 1160,
+      "sha256": "b1fdf357a72a5b2a8c8e64fda772da247587a18e06025f03386e58bfac8bcb34"
+    },
+    {
+      "path": "governance/execution/README.md",
+      "bytes": 105,
+      "sha256": "a6e751509ba104b9e0cbea7e500ba632a1a8ede0b9adcb48b9f86a79d4da4392"
+    },
+    {
+      "path": "governance/gate-register.yaml",
+      "bytes": 2346,
+      "sha256": "a7248256003446d2ec23e66b17200afca621b8a606de94502c507089d96a5a52"
+    },
+    {
+      "path": "governance/phase-4/GATE_CROSSWALK.yaml",
+      "bytes": 1410,
+      "sha256": "cc7ce6ba362f32a0713522afc2dba77a2208f586e5cf27890b3433c7ec534e4c"
+    },
+    {
+      "path": "governance/phase-4/exit/PHASE_4_EXIT_PACKET_TEMPLATE.md",
+      "bytes": 648,
+      "sha256": "4e970e14166c1ce74428e7d7fef7d1ee0be8b567520eeff0961c39c7d778299a"
+    },
+    {
+      "path": "governance/phase-4/exit/README.md",
+      "bytes": 122,
+      "sha256": "be5660763c32f80d6338f0834c4f5affebf6a1a22d88c197ad25bc6f8493e30c"
+    },
+    {
+      "path": "governance/phase-4/gates/G0.yaml",
+      "bytes": 277,
+      "sha256": "37aca6e3e6d74970c26eec1090eb358d2cbda8cd8ee6ebe973bb77411c30a381"
+    },
+    {
+      "path": "governance/phase-4/gates/G1.yaml",
+      "bytes": 277,
+      "sha256": "10c8f24dbb3c76805cde4470221d183c3395c1542fd9be3784f3af4fbb68ae58"
+    },
+    {
+      "path": "governance/phase-4/gates/G10.yaml",
+      "bytes": 269,
+      "sha256": "e5982f7f3e0e44dd3a6aba2557d4d2162b5d34bd76e751a3962f68a6d03b2fb6"
+    },
+    {
+      "path": "governance/phase-4/gates/G11.yaml",
+      "bytes": 269,
+      "sha256": "e69f74d57e24fc20ebbb269a8970de85731a50c26545686749230842e1f06ce4"
+    },
+    {
+      "path": "governance/phase-4/gates/G12.yaml",
+      "bytes": 269,
+      "sha256": "1ae86c97d86984e1788259c6fbd8983a5c4c2b3bc4f0583b51dea194c75c88bf"
+    },
+    {
+      "path": "governance/phase-4/gates/G2.yaml",
+      "bytes": 283,
+      "sha256": "78e4311ba7d867f337cd5f5bd181cb4acff4ce80e57d27bb78f7445e76fa9030"
+    },
+    {
+      "path": "governance/phase-4/gates/G3.yaml",
+      "bytes": 275,
+      "sha256": "e1be0e41ec064fcb2ffdc8e6eeb17c668813328e7ba26daec817e282e4774e03"
+    },
+    {
+      "path": "governance/phase-4/gates/G4.yaml",
+      "bytes": 290,
+      "sha256": "269d02990567d112e13a4bc14d5f71d838decbb77a2fa893486cc80056b0b1d3"
+    },
+    {
+      "path": "governance/phase-4/gates/G5.yaml",
+      "bytes": 290,
+      "sha256": "36650404152aed2f5c0c73af9ac84e947aa8dff63e4250008b51888d12692e1b"
+    },
+    {
+      "path": "governance/phase-4/gates/G6.yaml",
+      "bytes": 290,
+      "sha256": "cb6ac66f5198af182f56d9cc83da65524436539032f36aa186b41e31c9197301"
+    },
+    {
+      "path": "governance/phase-4/gates/G7.yaml",
+      "bytes": 290,
+      "sha256": "2f070de9554c79e5d471255fbbb162bbf0c3ee0f4c53b617aeae4c676d59d98f"
+    },
+    {
+      "path": "governance/phase-4/gates/G8.yaml",
+      "bytes": 290,
+      "sha256": "7dfb608cd0e8bbc5628db204de08492c69b484616586640939a5c27d0daab403"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.0.yaml",
+      "bytes": 211,
+      "sha256": "71ffa07d332b14126110b0cd35c3d0c461b4cb5b88c9ce8a28d429f23c307b29"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.1.yaml",
+      "bytes": 211,
+      "sha256": "22ce87941a08aed2226571559170bcf012171ef2d24b1d4a4816aa424a293c30"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.10.yaml",
+      "bytes": 212,
+      "sha256": "57ee5e202934695b7f8510ebce09a68e8bced706f9f0f9137ba4cced4ee7de43"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.11.yaml",
+      "bytes": 212,
+      "sha256": "f1c5eb6c14137d60293d6ba1bcb73361ce669867e7d139eedb5a1e66822797d9"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.12.yaml",
+      "bytes": 212,
+      "sha256": "77dca6cf3182004c837f2e5f368f1fa80ad94d6eb02bc9d3746f8335e67beaa3"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.13.yaml",
+      "bytes": 212,
+      "sha256": "27669b30a22c9c4be839c6ebbd9b60d3f7330c1e0a3d7549e39d9647e05ac691"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.14.yaml",
+      "bytes": 212,
+      "sha256": "01e38a1d67ded0aa61e77c19526a3131ca10f513e7e149d36d4ae53be0495fbf"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.15.yaml",
+      "bytes": 212,
+      "sha256": "0ecfdf96178856d8000a655e46f81648d30defb11a5b2c5dc622669cf977ab3e"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.16.yaml",
+      "bytes": 212,
+      "sha256": "705716c2dc20714dc8cfc664c0a8d4aba3c81891f69c7f06a196b94ddc86b191"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.17.yaml",
+      "bytes": 212,
+      "sha256": "20c0fddb3686348c19f2b0ab03df3998d22f5a2b5053b73c5197ab6e021105dd"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.18.yaml",
+      "bytes": 212,
+      "sha256": "2224b2464f9281e0ca5f2b367366f52fd2815b4a62cba2646a8e306cc3a8b20c"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.2.yaml",
+      "bytes": 211,
+      "sha256": "0fa54366e5bc41f24a12809dc058a366bf863401bcda1280333b8dd7a78995f1"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.3.yaml",
+      "bytes": 211,
+      "sha256": "e8f36f64a5ddf5a0c17e96fc9b9ccacc8878427e5509d090b5c92d116994235f"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.4.yaml",
+      "bytes": 225,
+      "sha256": "7242bfd2b4acbccaccf0f49ccebb282d99c424c98d9ecbffa1b26182ed04c4aa"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.5.yaml",
+      "bytes": 215,
+      "sha256": "b523ad0ba53dba04d877f281f54c38b3fd012c4f3e69a57f6ca1ae62b3ce2c7b"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.6.yaml",
+      "bytes": 211,
+      "sha256": "72fbb3e8413e1a02036e72f05d423918f0a3518810c74ec043365b30d3e81f49"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.7.yaml",
+      "bytes": 211,
+      "sha256": "cdfdb12a4fc95e8f95cdad846fae42d6c7f5384826b0a3497afecf30214d05d3"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.8.yaml",
+      "bytes": 211,
+      "sha256": "d57d8d46a54d61102cee200699bd9e5f7fb1d417463d8f42f8d494d63c1066f7"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.9.yaml",
+      "bytes": 211,
+      "sha256": "9d9674433185ea0e1f02860aab0322e5eb04b8a63a9b7e11f4309c3bbd5de003"
+    },
+    {
+      "path": "governance/phase-4/gates/G9.yaml",
+      "bytes": 216,
+      "sha256": "e42077f1d4571be3ae8ef24b6e9eca7bffd401ebca52250dc226cda682423f74"
+    },
+    {
+      "path": "governance/phase-state.yaml",
+      "bytes": 1052,
+      "sha256": "32c301d9e78807e2baf412e88268d398a06f26861cbfc57bdcb2a002103ac85c"
+    },
+    {
+      "path": "governance/reviews/README.md",
+      "bytes": 117,
+      "sha256": "60d2ee87858cf7aee3e5f8daa7d194bf79cab47792cb449ed2479a21fdb2b578"
+    },
+    {
+      "path": "governance/source-of-truth/Ese_Digitals_Phase_4_Opportunity_Intelligence_Engine_Master_Build_Manual_v2_2.docx",
+      "bytes": 72884,
+      "sha256": "e0a33354e4339d2a8421c4b36c715b58c2164fe2e7c0b7e15bc023b6cf171f9e"
+    },
+    {
+      "path": "governance/source-of-truth/Ese_Digitals_V4_Migration_Master_Session_Context_2026-09-13.md",
+      "bytes": 3110711,
+      "sha256": "038615d3fccc972bbaa3bf335b54846f8ff51d02d50ca365e72c316fa5b8e5ab"
+    },
+    {
+      "path": "governance/source-of-truth/SOURCE_MANIFEST.yaml",
+      "bytes": 693,
+      "sha256": "d7563f5b291310c310e7b0d665398977463755eb8726634036d75cd60700394c"
+    },
+    {
+      "path": "governance/traceability/PHASE_4_REQUIREMENTS_TRACEABILITY_BASELINE.md",
+      "bytes": 1151,
+      "sha256": "8cc654d8ade24b72315f2637e4566d0b2945bd3766cc4799d4c2d037a7000dd5"
+    },
+    {
+      "path": "snapshots/README.md",
+      "bytes": 128,
+      "sha256": "09e391bdd4db2780edac4673e618e373272630337f6831f5be6f643151a86729"
+    },
+    {
+      "path": "templates/CODEX_SESSION_HANDOFF_TEMPLATE.md",
+      "bytes": 281,
+      "sha256": "88ee123cfb7f3247498ec6aca233c45023efe465bbfa9d308b283767cfa99b6d"
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 104,
+      "sha256": "4331d6f8e838218130128233e43035285e6d93120cdc88dfab30b274f783b072"
+    },
+    {
+      "path": "tools/validate_governance.py",
+      "bytes": 2356,
+      "sha256": "5067c56cbf9f9df0f3478d9e032099024b9d3f3e672da96aaff6ee68c1f755d9"
+    }
+  ]
+}

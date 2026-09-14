@@ -1,0 +1,39 @@
+schema_version: "1.0"
+policy:
+  append_only: true
+  failed_evidence_must_be_preserved: true
+  evidence_is_not_certification: true
+  every_material_claim_requires_evidence: true
+
+current:
+  phase: PHASE_4
+  gate: G9.5
+  status: IN_PROGRESS
+
+required_fields:
+  - evidence_id
+  - related_gate
+  - execution_id
+  - captured_at
+  - environment
+  - repository
+  - branch
+  - commit
+  - test_or_observation
+  - result
+  - raw_reference
+  - security_safety_impact
+
+entries:
+  - evidence_id: GOV-BASELINE-2026-09-14
+    status: CURRENT
+    type: GOVERNANCE_BASELINE
+    artifact: GOVERNANCE_BASELINE_REPORT.md
+  - evidence_id: V4-HANDOFF-2026-09-13
+    status: CONTROLLING_SOURCE_OF_TRUTH
+    type: SOURCE_OF_TRUTH
+    artifact: governance/source-of-truth/Ese_Digitals_V4_Migration_Master_Session_Context_2026-09-13.md
+  - evidence_id: PLATFORM-TECHNICAL-EVIDENCE
+    status: NON_DISPOSITIVE
+    type: REPOSITORY_LOCAL_EVIDENCE
+    artifact: pending platform repository inspection/reference

@@ -1,0 +1,52 @@
+schema_version: "1.0"
+execution:
+  id: "BASELINE-2026-09-14"
+  phase: PHASE_4
+  gate: G9.5
+  gate_name: Canonical Backend/API Integration
+  state: BUILDING
+  disposition: BLOCKED_PENDING_RECONCILIATION
+
+objective:
+  title: "Establish the governed, interruption-tolerant execution baseline"
+  scope:
+    - "Codex continuity kernel"
+    - "persistent state"
+    - "evidence indexing"
+    - "gate packet linkage"
+    - "human certification handoff"
+  application_architecture_change: false
+
+last_completed_action:
+  summary: "Governance baseline recreated from the current dump plus governing source documents."
+  verification: "Structure and required documents assembled in this replacement package."
+
+known_blockers:
+  - id: G9_PUBLIC_BACKEND_TOPOLOGY
+    status: OPEN
+    severity: MATERIAL
+    description: "Worker-to-Apps-Script bridge versus Worker-native D1 remains unresolved by approved decision."
+  - id: G9_STATE_RECONCILIATION
+    status: OPEN
+    severity: MATERIAL
+    description: "V4 controlling handoff and later-looking platform technical evidence are not reconciled by a formal decision."
+  - id: G9_CERTIFICATION_MECHANISM
+    status: OPEN
+    severity: MATERIAL
+    description: "No filed formal G9 certification/attestation record."
+  - id: PHASE4_EXIT_EVIDENCE
+    status: OPEN
+    severity: MATERIAL
+    description: "No consolidated Phase 4 exit traceability/acceptance packet is filed."
+
+next_action:
+  action: "Adopt this repository structure, then execute G9.5 only within current authority."
+  stop_condition: "Human decision/certification boundary or unresolved material contradiction."
+
+human_decisions_required:
+  - "Select/sequence canonical public backend architecture."
+  - "Approve reconciliation disposition for G9 technical evidence versus V4 controlling state."
+  - "Confirm formal certification/attestation mechanism and any countersign requirement."
+
+integrity:
+  rule: "Re-verify git HEAD and status before material work resumes."

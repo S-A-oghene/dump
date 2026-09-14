@@ -1,0 +1,8 @@
+schema_version: "1.0"
+gate: G8
+phase: PHASE_4
+status: PASS_EVIDENCED_CLOSED_AS_RECORDED
+evidence_consolidated_here: false
+certification_status: NOT_CERTIFIED
+authority: HUMAN_PROJECT_OWNER
+note: "Historical/current state as recorded by governing sources; no new certification is asserted."

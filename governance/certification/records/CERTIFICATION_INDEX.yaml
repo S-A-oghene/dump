@@ -1,0 +1,10 @@
+schema_version: "1.0"
+records:
+  - gate: G9.5
+    status: NOT_CERTIFIED
+    record: null
+    authority: HUMAN_PROJECT_OWNER
+  - phase: PHASE_4
+    status: NOT_CERTIFIED
+    record: null
+    authority: HUMAN_PROJECT_OWNER

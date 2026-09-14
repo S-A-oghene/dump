@@ -1,0 +1,8 @@
+schema_version: "1.0"
+gate: G9
+phase: PHASE_4
+status: IN_PROGRESS
+evidence_consolidated_here: false
+certification_status: NOT_CERTIFIED
+authority: HUMAN_PROJECT_OWNER
+note: "G9.5 is the current controlling subgate."

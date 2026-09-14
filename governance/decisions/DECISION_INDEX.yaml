@@ -1,0 +1,10 @@
+schema_version: "1.0"
+decision_register:
+  - id: "G9-PUBLIC-BACKEND-RECONCILIATION"
+    status: OPEN
+    artifact: governance/decisions/G9_PUBLIC_BACKEND_ARCHITECTURE_RECONCILIATION.md
+    authority_required: HUMAN_PROJECT_OWNER
+  - id: "G9-CERTIFICATION-MECHANISM"
+    status: OPEN
+    artifact: governance/certification/CERTIFICATION_STATUS.yaml
+    authority_required: HUMAN_PROJECT_OWNER

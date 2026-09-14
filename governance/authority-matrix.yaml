@@ -1,0 +1,49 @@
+schema_version: "1.0"
+
+roles:
+  CODEX_ORCHESTRATOR:
+    may_build: true
+    may_test: true
+    may_remediate: true
+    may_create_gate_packet: true
+    may_certify: false
+    may_authorize_next_phase: false
+  QA_SUBAGENT:
+    may_test: true
+    may_review_evidence: true
+    may_recommend: true
+    may_certify: false
+  ARCHITECTURE_SUBAGENT:
+    may_review_design: true
+    may_recommend: true
+    may_certify: false
+  INDEPENDENT_REVIEWER_LLM:
+    may_review: true
+    may_issue_validation_recommendation: true
+    may_certify: false
+  HUMAN_PROJECT_OWNER:
+    may_accept_feedback: true
+    may_certify: true
+    may_authorize_next_phase: true
+    retains:
+      - strategy
+      - constitutional_change
+      - high_risk_approval
+      - material_financial_decision
+      - major_architecture_change
+      - accountability
+  DUAL_REVIEWER:
+    may_countersign: true
+    authority_depends_on_governance: true
+
+constraints:
+  codex_and_other_ai:
+    may_not_self_authorize: true
+    may_not_modify_constitution_or_permission_model: true
+    may_not_bypass_required_approval_or_audit: true
+    may_not_self_certify: true
+
+certification:
+  authority: HUMAN_PROJECT_OWNER
+  status: NOT_CERTIFIED
+  downstream_authorization: BLOCKED

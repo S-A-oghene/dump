@@ -1,0 +1,27 @@
+schema_version: "1.0"
+phase: PHASE_4
+source_priority:
+  current_state: governance/source-of-truth/Ese_Digitals_V4_Migration_Master_Session_Context_2026-09-13.md
+  historical_specification: governance/source-of-truth/Ese_Digitals_Phase_4_Opportunity_Intelligence_Engine_Master_Build_Manual_v2_2.docx
+
+gates:
+  G0: {status: COMPLETE_AS_RECORDED, evidence_consolidated_here: false}
+  G1: {status: COMPLETE_AS_RECORDED, evidence_consolidated_here: false}
+  G2: {status: PASS_EVIDENCED_AS_RECORDED, evidence_consolidated_here: false}
+  G3: {status: CLOSED_AS_RECORDED, evidence_consolidated_here: false}
+  G4: {status: PASS_EVIDENCED_CLOSED_AS_RECORDED, evidence_consolidated_here: false}
+  G5: {status: PASS_EVIDENCED_CLOSED_AS_RECORDED, evidence_consolidated_here: false}
+  G6: {status: PASS_EVIDENCED_CLOSED_AS_RECORDED, evidence_consolidated_here: false}
+  G7: {status: PASS_EVIDENCED_CLOSED_AS_RECORDED, evidence_consolidated_here: false}
+  G8: {status: PASS_EVIDENCED_CLOSED_AS_RECORDED, evidence_consolidated_here: false}
+  G9: {status: IN_PROGRESS, controlling_subgate: G9.5}
+  G10: {status: NOT_STARTED}
+  G11: {status: NOT_STARTED}
+  G12: {status: NOT_STARTED}
+
+rules:
+  no_downstream_execution_before_prior_gate_resolution: true
+  historical_summary_is_not_new_certification: true
+  evidence_must_be_traceable: true
+  human_certification_required: true
+  explicit_next_phase_authorization_required: true

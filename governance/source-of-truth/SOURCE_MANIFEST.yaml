@@ -1,0 +1,17 @@
+schema_version: "1.0"
+generated_at: "2026-09-14"
+included:
+  - path: governance/source-of-truth/Ese_Digitals_V4_Migration_Master_Session_Context_2026-09-13.md
+    origin: conversation_upload
+    sha256: 038615d3fccc972bbaa3bf335b54846f8ff51d02d50ca365e72c316fa5b8e5ab
+  - path: governance/source-of-truth/Ese_Digitals_Phase_4_Opportunity_Intelligence_Engine_Master_Build_Manual_v2_2.docx
+    origin: conversation_upload
+    sha256: e0a33354e4339d2a8421c4b36c715b58c2164fe2e7c0b7e15bc023b6cf171f9e
+excluded:
+  - pde_os_application_source
+  - platform_application_source
+  - production_secrets
+  - credentials
+  - private_master_data
+  - live_deployment_identifiers
+  - certification_signatures
